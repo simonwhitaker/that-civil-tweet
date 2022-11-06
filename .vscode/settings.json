@@ -1,0 +1,7 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "isort.args": ["--profile", "black"],
+  "python.formatting.provider": "black"
+}

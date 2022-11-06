@@ -12,11 +12,11 @@ To run the code, first register for the [Twitter API](https://developer.twitter.
 export TWITTER_API_TOKEN=<your bearer token here>
 ```
 
-Now run the code, ideally inside a virtual environment.
+Now run the code.
 
 ```
-pip install -r requirements.txt
-python main.py > data.csv
+poetry install
+poetry run python3 main.py > data.csv
 ```
 
 Now open viz.ipynb and run it to generate an interactive plot. If you've never used a .ipynb file before, the easiest way to get started is to open it in VS Code with the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installed.
